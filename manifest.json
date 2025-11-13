@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Libras-TCC (Final V4)",
+  "version": "4.0",
+  "description": "Extensão para traduzir texto selecionado para Libras via injeção de script.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting" 
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

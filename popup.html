@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Libras TCC</title>
+    <style>
+        body { font-family: sans-serif; width: 400px; padding: 10px; }
+        #translateButton { padding: 8px 15px; background-color: #005A9C; color: white; border: none; cursor: pointer; margin-bottom: 10px; }
+        #vlibrasFrame { width: 100%; height: 250px; border: 1px solid #ccc; }
+        #status { font-size: 0.9em; color: #555; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <h3>Interpretação LIBRAS</h3>
+    <button id="translateButton">Traduzir Seleção da Página</button>
+    
+    <iframe 
+        id="vlibrasFrame" 
+        src="https://sabrinabela.github.io/extencaovisound/" 
+        frameborder="0"
+    ></iframe>
+    
+    <div id="status">Aguardando carregamento do intérprete...</div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
